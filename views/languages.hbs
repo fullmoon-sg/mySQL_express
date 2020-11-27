@@ -1,0 +1,20 @@
+{{#extends 'base'}}
+{{#block 'content'}}
+<h1> Languages</h1><table class="table">
+<thead>
+    <tr>
+    <th>Language_ID</th>
+    <th>Name</th>
+    <th>Last_Update</th>
+    </tr>
+</thead>
+{{#each languages}}
+<tr>
+    <th>{{this.language_id}}</th>
+    <th>{{this.name}}</th>
+    <th>{{this.last_update}}</th>
+</tr>
+{{/each}}
+</table>
+{{/block}}
+{{/extends}}

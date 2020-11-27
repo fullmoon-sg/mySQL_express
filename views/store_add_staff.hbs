@@ -1,0 +1,25 @@
+{{#extends 'base'}}
+{{#block 'content'}}
+<h1> Store, Address and Staff Info</h1>
+<table class= "table">
+<thead>
+    <tr>
+    <th>Staff First Name</th>
+    <th>Staff Last Name</th>
+    <th>Staff Address</th>
+    <th>Staff Email</th>
+    <th>Staff office location</th>
+    </tr>
+</thead>
+{{#each stores_add_staff}}
+<tr>
+    <th>{{this.first_name}}</th>
+    <th>{{this.last_name}}</th>
+    <th>{{this.address}}</th>
+    <th>{{this.email}}</th>
+    <th>{{this.location}}</th>
+</tr>
+{{/each}}
+</table>
+{{/block}}
+{{/extends}}
