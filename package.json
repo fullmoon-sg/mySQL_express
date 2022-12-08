@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/fullmoon-sg/mySQL_express#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "g": "^2.0.1",
     "handlebars-helpers": "^0.10.0",
     "hbs": "^4.1.1",
